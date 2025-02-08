@@ -8,8 +8,8 @@ Le but de ce 'projet' est de généraliser le design de la page 120 du livre **S
 
 
 
-![Alt](./livre.jpg)
-![Alt](./ellipsebox.JPG)
+![Alt](./livre.JPG)
+![Alt](./ellipsebox.jpg)
 
 Les généralisations sont de plusieurs ordres : 
 1. Obtenir un fichier SVG directement utilisable dans Inkscape et pour la découpe laser. 
