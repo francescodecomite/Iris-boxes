@@ -3,6 +3,8 @@
 
 *** English version below (maybe)***
 
+# Présentation
+
 Le but de ce 'projet' est de généraliser le design de la page 120 du livre **Special Packaging**, acheté il y a vingt ans dans un musée de Bruxelles (voir photos). 
 
 
@@ -28,5 +30,9 @@ Le programme est écrit en Python, je pense qu'il n'est pas très compliqué à 
 4. **D** : Grand axe de l'ellipse (fonction de B).
 5. **N** : Nombre de côtés (mais ce paramètre est surchargé au début du programme principal).  
 
-Pour correspondre aux codes couleur pour la découpe du [Fabricarium de Polytech Lille](https://fabricarium-fabmanager.polytech-lille.fr/#!/) 
- 
+Pour correspondre aux codes couleur pour la découpe du [Fabricarium de Polytech Lille](https://fabricarium-fabmanager.polytech-lille.fr/#!/), le bleu est utilisé pour les découpes à faire en premier, et le vert pour les découpes finales. En gros, les pointillés sont en bleu, et aussi les ellipses.
+
+Le programme produit un ficher SVG directement exploitable. 
+
+
+ # La partie un peu compliquée mais rendu simple par des explications super pédagogiques. 

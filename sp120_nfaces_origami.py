@@ -13,7 +13,7 @@ A=100
 B=400
 # coefficients des ellipses
 D=(B*5)//9//2
-E=(100*30)//45//2
+E=(A*30)//45//2
 # Nombre de côtés
 N=6
 
@@ -34,7 +34,7 @@ def ligne(debut,fin,transform="",couleur="lime"):
      s="<line x1=\""+str(debut[0]+decalx)+"\" y1=\""+str(debut[1]+decaly)+"\" x2=\""+str(fin[0]+decalx)+"\" y2=\""+str(fin[1]+decaly)+"\" stroke=\""+couleur+"\"  transform="+transform+" />\n"
      return s
 
-def ellipse(xradius,yradius,xcenter,ycenter,couleur="lime"):
+def ellipse(xradius,yradius,xcenter,ycenter,couleur="blue"):
     s="<ellipse rx=\""+str(xradius)+"\" ry=\""+str(yradius)+"\" cx=\""+str(xcenter+decalx)+"\" cy=\""+ str(ycenter+decaly)+"\" fill=\"none\"   stroke=\""+couleur+"\"/>\n"
     return s
 
