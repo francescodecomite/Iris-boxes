@@ -57,3 +57,11 @@ La hauteur de la languette vaut _l_/cos((n-2)*pi/(2*n), c'est le demi-angle entr
 Si ça vous semble magique, imprimer un modèle, peu importe le nombre de côtés, et voyez comment ça se plie. 
 
 La réalité montre que mes calculs sont bons, ou au moins qu'ils peuvent faire illusion. 
+
+## Questions et développements 
+
+S'occuper de la découpe des ellipses et de la rotation de la boîte, comme dans le libre...
+
+Voir si en rallongeant un peu les languettes, on n'obtient pas quelque chose de plus stable. 
+
+Corriger les fautes de frappe. 
