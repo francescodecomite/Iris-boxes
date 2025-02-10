@@ -42,4 +42,12 @@ Pour construire un couvercle en iris qui se ferme convenablement, il y a deux va
 1. La longueur de la languette. 
 2. L'angle du pli de la languette. 
 
-## La longueur de la languette
+
+
+D'abord, la longueur _l_ du pointillé oblique, c'est plus facile : c'est la distance entre un sommet du polygone régulier obtenu quand on a fermé la boîte et le centre de cd polygone. 
+Si le côté vaut _a_, alors _l_ vaut _a_/(2*sin(pi/n)
+
+La hauteur de la languette vaut _l_/cos((n-2)*pi/(2*n), c'est le demi-angle entre deux côtés du polygone. 
+Si ça vous semble magique, imprimer un modèle, peu importe le nombre de côtés, et voyez comment ça se plie. 
+
+La réalité montre quemes calculs sont bons, ou au moins qu'ils peuvent faire illusion. 
