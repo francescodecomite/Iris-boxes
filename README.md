@@ -24,7 +24,7 @@ Les généralisations sont de plusieurs ordres :
 pointillés d'Inkscape. J'ai entendu dire que c'était pareil pour Illustrator. 
 
 Voilà le genre de trucs qu'on obtient : 
-![Alt](./iris-exemple.jpg)
+![Alt](./iris-exemple.jpeg)
 
 C'est seulement des prototypes, il manque un couvercle et le papier n'est pas terrible. 
 
@@ -50,7 +50,7 @@ Pour construire un couvercle en iris qui se ferme convenablement, il y a deux va
 
 
 
-D'abord, la longueur _l_ du pointillé oblique, c'est plus facile : c'est la distance entre un sommet du polygone régulier obtenu quand on a fermé la boîte et le centre de cd polygone. 
+D'abord, la longueur _l_ du pointillé oblique, c'est plus facile : c'est la distance entre un sommet du polygone régulier obtenu quand on a fermé la boîte et le centre de ce polygone. 
 Si le côté vaut _a_, alors _l_ vaut _a_/(2*sin(pi/n)
 
 La hauteur de la languette vaut _l_/cos((n-2)*pi/(2*n), c'est le demi-angle entre deux côtés du polygone. 
