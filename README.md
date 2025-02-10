@@ -29,6 +29,7 @@ Le programme est écrit en Python, je pense qu'il n'est pas très compliqué à 
 3. **E** : Petit axe de l'elipse (fonction de A). 
 4. **D** : Grand axe de l'ellipse (fonction de B).
 5. **N** : Nombre de côtés (mais ce paramètre est surchargé au début du programme principal).  
+6. **sens_direct** : Si True, les couvercles tournent dans le même sens, si False, dans des sens opposés. 
 
 Pour correspondre aux codes couleur pour la découpe du [Fabricarium de Polytech Lille](https://fabricarium-fabmanager.polytech-lille.fr/#!/), le bleu est utilisé pour les découpes à faire en premier, et le vert pour les découpes finales. En gros, les pointillés sont en bleu, et aussi les ellipses.
 
@@ -36,3 +37,9 @@ Le programme produit un ficher SVG directement exploitable.
 
 
  # La partie un peu compliquée mais rendu simple par des explications super pédagogiques. 
+
+Pour construire un couvercle en iris qui se ferme convenablement, il y a deux valeurs à calculer : 
+1. La longueur de la languette. 
+2. L'angle du pli de la languette. 
+
+## La longueur de la languette
