@@ -142,7 +142,7 @@ def contour(a=A,b=B,d=D,e=E,n=N):
     # Bord droit de la languette
     s+=ligne((0,n*a),(-0.2*longueur_languette,n*a+0.3*a))
     # Partie horizontale de la languette
-    s+=ligne((-0.02*a,n*a+0.3*a),(-0.8*longueur_languette,n*a+0.3*a))
+    s+=ligne((-0.2*longueur_languette,n*a+0.3*a),(-0.8*longueur_languette,n*a+0.3*a))
     # Bord gauche de la languette
     s+=ligne((-0.8*longueur_languette,n*a+0.3*a),(-longueur_languette,n*a))
 
@@ -155,7 +155,7 @@ def contour(a=A,b=B,d=D,e=E,n=N):
 
 if __name__=="__main__":
   
-    cote=12
+    cote=8
     image=debut(c=TAILLE,n=cote)
     image.write(contour(n=cote))
     fin(image)
