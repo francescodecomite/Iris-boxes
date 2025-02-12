@@ -1,6 +1,8 @@
 # Iris-boxes
  Program and cut boxes with iris locking lids // Programmer et couper des boîtes à ouverture en iris
 
+_ Vos questions et vos louanges : fdecomite at gmail.com
+
 *** English version below (maybe)***
 
 # Présentation
@@ -15,6 +17,7 @@ Pour le moment, je ne parle pas de la torsion qu'on peut réaliser sur le modèl
 ![Alt](./livre.JPG)
 ![Alt](./ellipsebox.jpg)
 
+
 Les généralisations sont de plusieurs ordres : 
 1. Obtenir un fichier SVG directement utilisable dans Inkscape et pour la découpe laser. 
 2. Pouvoir construire des boîtes avec un nombre quelconque de côtés. 
@@ -27,6 +30,21 @@ Voilà le genre de trucs qu'on obtient :
 ![Alt](./iris-exemple.jpeg)
 
 C'est seulement des prototypes, il manque un couvercle et le papier n'est pas terrible. 
+
+# Les deux programmes
+1. sp120_nfaces_origami.py fabrique des bboîtes comme dans le livre, avec des trous ellispoïdaux. 
+2. boites_en_iris fabrique des boîtes sans ellipses, avec un couvercle un peu plus large, mais sans trous. 
+3. En bricolant un peu, on doit pouvoir faire des boîtes avec un couvercle et des trous en ellipse... à voir ...
+
+# Boîtes en iris sans ellipse mais avec couvercle
+Trois paramètres : 
+1. **A** : longueur d'un côte de la boîte.
+2. **B** : hauteur de la boîte. 
+3. **N** : Nombre de côtés (mais ce paramètre est surchargé au début du programme principal).  
+Le couvercle est un peu plus large que la boîte (pour le changer : voir le coéfficient devant A au début de la fonction qui construit le couvercle).
+Le couvercle est moins haut que la boîte, la modification se fait en changeant le coefficient de B au début de la fonction qui construit le couvercle).
+
+# Boîtes avec ellipses
 
 Le programme est écrit en Python, je pense qu'il n'est pas très compliqué à comprendre. Les différentes variables qui vont influer sur la taille de la boîte sont les suivantes : 
 
@@ -60,7 +78,7 @@ La réalité montre que mes calculs sont bons, ou au moins qu'ils peuvent faire 
 
 ## Questions et développements 
 
-S'occuper de la découpe des ellipses et de la rotation de la boîte, comme dans le libre...
+S'occuper de la découpe des ellipses et de la rotation de la boîte, comme dans le livre...
 
 Voir si en rallongeant un peu les languettes, on n'obtient pas quelque chose de plus stable. 
 
