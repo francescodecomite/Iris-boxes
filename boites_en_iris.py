@@ -110,7 +110,7 @@ def boite(a=A,b=B,n=N):
     return s    
 
 
-def couvercle(a=int(1.1*A),b=int(0.6*B),n=N):
+def couvercle(a=int(1.03*A),b=int(0.6*B),n=N):
     global decalx
     l=a/(2*sin(pi/n))
     longueur_languette=l*sin((n-2)*pi/(2*n))
@@ -157,7 +157,7 @@ def couvercle(a=int(1.1*A),b=int(0.6*B),n=N):
 
 if __name__=="__main__":
   
-    cote=8
+    cote=5
     image=debut(c=TAILLE,n=cote)
     image.write(boite(n=cote))
     image.write(couvercle(n=cote))
