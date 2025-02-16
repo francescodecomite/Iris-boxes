@@ -14,8 +14,8 @@ A=100
 # Hauteur de la boîte
 B=400
 # coefficients des ellipses
-D=(B*5)//9//2
-E=(A*30)//45//2
+D=(B*6)//9//2
+E=(A*20)//45//2
 # Nombre de côtés (changé dans le programme principal
 N=6
 # Si vrai, les iris tournent dans le même sens en haut et en bas, sinon, ils tournent en sens inverse
@@ -155,7 +155,7 @@ def contour(a=A,b=B,d=D,e=E,n=N):
 
 if __name__=="__main__":
   
-    cote=8
+    cote=6
     image=debut(c=TAILLE,n=cote)
     image.write(contour(n=cote))
     fin(image)
